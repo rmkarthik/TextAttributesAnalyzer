@@ -12,15 +12,16 @@
 		25417E2018AE03C60093AD8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25417E1F18AE03C60093AD8E /* UIKit.framework */; };
 		25417E2618AE03C60093AD8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25417E2418AE03C60093AD8E /* InfoPlist.strings */; };
 		25417E2818AE03C60093AD8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25417E2718AE03C60093AD8E /* main.m */; };
-		25417E2C18AE03C60093AD8E /* TextStatsViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25417E2B18AE03C60093AD8E /* TextStatsViewControllerAppDelegate.m */; };
+		25417E2C18AE03C60093AD8E /* TextStatsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25417E2B18AE03C60093AD8E /* TextStatsAppDelegate.m */; };
 		25417E2F18AE03C60093AD8E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25417E2D18AE03C60093AD8E /* Main.storyboard */; };
-		25417E3218AE03C60093AD8E /* TextStatsViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25417E3118AE03C60093AD8E /* TextStatsViewControllerViewController.m */; };
+		25417E3218AE03C60093AD8E /* TextStatsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25417E3118AE03C60093AD8E /* TextStatsViewController.m */; };
 		25417E3418AE03C60093AD8E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25417E3318AE03C60093AD8E /* Images.xcassets */; };
 		25417E3B18AE03C60093AD8E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25417E3A18AE03C60093AD8E /* XCTest.framework */; };
 		25417E3C18AE03C60093AD8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25417E1B18AE03C60093AD8E /* Foundation.framework */; };
 		25417E3D18AE03C60093AD8E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25417E1F18AE03C60093AD8E /* UIKit.framework */; };
 		25417E4518AE03C60093AD8E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25417E4318AE03C60093AD8E /* InfoPlist.strings */; };
 		25417E4718AE03C60093AD8E /* TextAttributesAnalyzerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 25417E4618AE03C60093AD8E /* TextAttributesAnalyzerTests.m */; };
+		25417E5218AE10C30093AD8E /* AttributorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25417E5118AE10C30093AD8E /* AttributorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,17 +43,19 @@
 		25417E2518AE03C60093AD8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25417E2718AE03C60093AD8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25417E2918AE03C60093AD8E /* TextAttributesAnalyzer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TextAttributesAnalyzer-Prefix.pch"; sourceTree = "<group>"; };
-		25417E2A18AE03C60093AD8E /* TextStatsViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatsViewControllerAppDelegate.h; sourceTree = "<group>"; };
-		25417E2B18AE03C60093AD8E /* TextStatsViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		25417E2A18AE03C60093AD8E /* TextStatsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatsAppDelegate.h; sourceTree = "<group>"; };
+		25417E2B18AE03C60093AD8E /* TextStatsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatsAppDelegate.m; sourceTree = "<group>"; };
 		25417E2E18AE03C60093AD8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		25417E3018AE03C60093AD8E /* TextStatsViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatsViewControllerViewController.h; sourceTree = "<group>"; };
-		25417E3118AE03C60093AD8E /* TextStatsViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewControllerViewController.m; sourceTree = "<group>"; };
+		25417E3018AE03C60093AD8E /* TextStatsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatsViewController.h; sourceTree = "<group>"; };
+		25417E3118AE03C60093AD8E /* TextStatsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatsViewController.m; sourceTree = "<group>"; };
 		25417E3318AE03C60093AD8E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		25417E3918AE03C60093AD8E /* TextAttributesAnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextAttributesAnalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25417E3A18AE03C60093AD8E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		25417E4218AE03C60093AD8E /* TextAttributesAnalyzerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextAttributesAnalyzerTests-Info.plist"; sourceTree = "<group>"; };
 		25417E4418AE03C60093AD8E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		25417E4618AE03C60093AD8E /* TextAttributesAnalyzerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextAttributesAnalyzerTests.m; sourceTree = "<group>"; };
+		25417E5018AE10C30093AD8E /* AttributorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AttributorViewController.h; sourceTree = "<group>"; };
+		25417E5118AE10C30093AD8E /* AttributorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AttributorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +115,11 @@
 		25417E2118AE03C60093AD8E /* TextAttributesAnalyzer */ = {
 			isa = PBXGroup;
 			children = (
-				25417E2A18AE03C60093AD8E /* TextStatsViewControllerAppDelegate.h */,
-				25417E2B18AE03C60093AD8E /* TextStatsViewControllerAppDelegate.m */,
+				25417E5018AE10C30093AD8E /* AttributorViewController.h */,
+				25417E5118AE10C30093AD8E /* AttributorViewController.m */,
 				25417E2D18AE03C60093AD8E /* Main.storyboard */,
-				25417E3018AE03C60093AD8E /* TextStatsViewControllerViewController.h */,
-				25417E3118AE03C60093AD8E /* TextStatsViewControllerViewController.m */,
+				25417E3018AE03C60093AD8E /* TextStatsViewController.h */,
+				25417E3118AE03C60093AD8E /* TextStatsViewController.m */,
 				25417E3318AE03C60093AD8E /* Images.xcassets */,
 				25417E2218AE03C60093AD8E /* Supporting Files */,
 			);
@@ -126,6 +129,8 @@
 		25417E2218AE03C60093AD8E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25417E2A18AE03C60093AD8E /* TextStatsAppDelegate.h */,
+				25417E2B18AE03C60093AD8E /* TextStatsAppDelegate.m */,
 				25417E2318AE03C60093AD8E /* TextAttributesAnalyzer-Info.plist */,
 				25417E2418AE03C60093AD8E /* InfoPlist.strings */,
 				25417E2718AE03C60093AD8E /* main.m */,
@@ -250,9 +255,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				25417E2C18AE03C60093AD8E /* TextStatsViewControllerAppDelegate.m in Sources */,
+				25417E5218AE10C30093AD8E /* AttributorViewController.m in Sources */,
+				25417E2C18AE03C60093AD8E /* TextStatsAppDelegate.m in Sources */,
 				25417E2818AE03C60093AD8E /* main.m in Sources */,
-				25417E3218AE03C60093AD8E /* TextStatsViewControllerViewController.m in Sources */,
+				25417E3218AE03C60093AD8E /* TextStatsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

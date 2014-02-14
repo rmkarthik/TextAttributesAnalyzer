@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TextStatsViewControllerViewController : UIViewController
-
+@interface TextStatsViewController : UIViewController
+@property (strong, nonatomic) NSMutableAttributedString *textToAnalyze;
 @end

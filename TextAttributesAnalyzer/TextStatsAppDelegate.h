@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TextStatsViewControllerAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TextStatsAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

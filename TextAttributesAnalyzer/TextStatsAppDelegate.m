@@ -6,9 +6,9 @@
 //  Copyright (c) 2014 Karthik. All rights reserved.
 //
 
-#import "TextStatsViewControllerAppDelegate.h"
+#import "TextStatsAppDelegate.h"
 
-@implementation TextStatsViewControllerAppDelegate
+@implementation TextStatsAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
